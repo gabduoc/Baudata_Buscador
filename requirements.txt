@@ -1,0 +1,4 @@
+streamlit
+Flask
+requests
+pyngrok
