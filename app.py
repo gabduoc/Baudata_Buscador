@@ -21,8 +21,8 @@ st.markdown("---")
 st.sidebar.image("https://baudata.app/assets/assets/images/logo_baudata3_nuevo.80112c02e6d937888ba9ff2325429a97.png", use_container_width=True)
 st.sidebar.markdown("---") 
 st.sidebar.header("⚙️ Configuración")
-api_key = st.sidebar.text_input("Apollo API Key", type="password", help="Obtenla en developer.apollo.io")
-webhook_url = st.sidebar.text_input("Ngrok Webhook URL", placeholder="https://...ngrok-free.dev")
+api_key = st.sidebar.text_input("Apollo API Key", type="password", help="Obtenla en developer.apollo.io").strip().replace(" ","")
+webhook_url = st.sidebar.text_input("Ngrok Webhook URL", placeholder="https://...ngrok-free.dev").strip().replace(" ","")
 
 st.sidebar.markdown(
     "<div style='text-align: center; color: gray; margin-top: 20px;'>"
