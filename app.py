@@ -320,7 +320,7 @@ with tab_status:
     else:
         st.error("Servidor Interno: APAGADO")
 
-    st.info("Recuerda que debes tener ngrok apuntando al puerto 5000 [cite: 1]")
+    st.info("Recuerda que debes tener ngrok apuntando al puerto 5000\nPuedes activar ngrok con el siguiente comando en tu terminal:\n\n```\nngrok http 5000\n```\n\nLuego copia la URL que te proporciona ngrok en la barra lateral de configuración.\n\n[Guía Rápida de Ngrok](https://ngrok.com/docs)")
     
     # Mostrar los últimos contactos capturados en tiempo real
     if os.path.exists(TEMP_FILE):
