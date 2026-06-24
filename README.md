@@ -1,6 +1,8 @@
 # Baudata_Buscador
 <img width="712" height="191" alt="image" src="https://github.com/user-attachments/assets/5b122037-e4fb-498f-b978-4985f42ffc92" />
+
 (La app desde la nube solo funciona a modo de muestra, ngrok solo funcionara descargando la app y ejecutandola localmente)
+
 [CLick Aqui Para Acceder](https://baudatabuscador-gabzep.streamlit.app/)
 
 Buscador de empresas que accede a la api de apollo, utiliza ngrok para las llamadas en cascada y recopila datos de trabajadores de diversas empresas en archivos csv de forma comoda
